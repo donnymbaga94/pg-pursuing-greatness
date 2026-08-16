@@ -72,14 +72,14 @@ REST API, serving both the web client and future native mobile builds.
    * Git
    * pip and venv
 
-## 1.Clone the Repository
+## 1. Clone the Repository
 ```
 *git clone [https://github.com/your-username/pg-pursuing-greatness.git]
 (https://github.com/your-username/pg-pursuing-greatness.git)
 cd pg-pursuing-greatness
 ```
 
-## 2.Set Up Virtual Environment
+## 2. Set Up Virtual Environment
 ```
 Bash
 
@@ -90,25 +90,25 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-## 3.Install Dependencies
+## 3. Install Dependencies
 ```
 Bash
 pip install -r requirements.txt
 ```
 
-## 4.Run Database Migrations
+## 4. Run Database Migrations
 ```
 Bash
 python manage.py migrate
 ```
 
-## 5.Create Superuser (Admin)
+## 5. Create Superuser (Admin)
 ```
 Bash
 python manage.py createsuperuser
 ``` 
 
-##. 6.Start Development Server
+## 6. Start Development Server
 ```
 Bash
 python manage.py runserver
