@@ -67,23 +67,55 @@ REST API, serving both the web client and future native mobile builds.
 * Web Client: DJango Templates + Tailwind CSS/HTMX (or SPA integration)
 
 # Quickstart Guide
-## Prerequisite
+##  Prerequisite
    * Python 3.11 or higher
    * Git
    * pip and venv
 
-## Clone the Repository
+## 1.Clone the Repository
 ```
 *git clone [https://github.com/your-username/pg-pursuing-greatness.git]
 (https://github.com/your-username/pg-pursuing-greatness.git)
 cd pg-pursuing-greatness
 ```
 
-## Install Dependencies
+## 2.Set Up Virtual Environment
+```
+Bash
+
+# Create virtual environment
+python -m venv venv
+
+# Activate on Linux/macOS
+source venv/bin/activate
+```
+
+## 3.Install Dependencies
 ```
 Bash
 pip install -r requirements.txt
 ```
+
+## 4.Run Database Migrations
+```
+Bash
+python manage.py migrate
+```
+
+## 5.Create Superuser (Admin)
+```
+Bash
+python manage.py createsuperuser
+``` 
+
+##. 6.Start Development Server
+```
+Bash
+python manage.py runserver
+```
+Visit http://127.0.0.1:8000 in your browser to verify the installation or 
+access the DRF admin suite at http://127.0.0.1:8000/admin/.
+
 
 # Project Structure
 pg-pursuing-greatness/  
