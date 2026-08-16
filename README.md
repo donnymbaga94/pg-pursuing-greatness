@@ -97,7 +97,6 @@ pip install -r requirements.txt
 ```
 
 # Project Structure
-
 pg-pursuing-greatness/  
 ├── config/                 # Project settings & root URL routing  
 │   ├── settings.py  
