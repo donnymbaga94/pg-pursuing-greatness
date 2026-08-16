@@ -73,9 +73,11 @@ REST API, serving both the web client and future native mobile builds.
    * pip and venv
 
 ## Clone the Repository
-```*git clone [https://github.com/your-username/pg-pursuing-greatness.git]
+```
+*git clone [https://github.com/your-username/pg-pursuing-greatness.git]
 (https://github.com/your-username/pg-pursuing-greatness.git)
-cd pg-pursuing-greatness```
+cd pg-pursuing-greatness
+```
 
 ## Install Dependencies
 ```
