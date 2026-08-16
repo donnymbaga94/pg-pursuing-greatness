@@ -114,6 +114,5 @@ pg-pursuing-greatness/
 └── README.md  
 
 # LICENSE
-
 Distributed under the MIT License. See LICENSE for more information
 
