@@ -56,15 +56,45 @@ REST API, serving both the web client and future native mobile builds.
                      └───────────────────────────┘
 ```
 
-# Backend
-** Language:       Python 3.11+
-** Framework:      Django 5.x
-** API Engine:     Django REST Framework (DRF)
-** Authentication: Simple JWT/Token Authentication
+# Backend  
+* Language:       Python 3.11+
+* Framework:      Django 5.x
+* API Engine:     Django REST Framework (DRF)
+* Authentication: Simple JWT/Token Authentication
 
 # Frontend & Mobile
-** Mobile & Cross-Platform UI: Flutter/Dart
-** Web Client: DJango Templates + Tailwind CSS/HTMX (or SPA integration)
+* Mobile & Cross-Platform UI: Flutter/Dart
+* Web Client: DJango Templates + Tailwind CSS/HTMX (or SPA integration)
+
+# Quickstart Guide
+## Prerequisite
+   * Python 3.11 or higher
+   * Git
+   * pip and venv
+
+## Clone the Repository
+```*git clone [https://github.com/your-username/pg-pursuing-greatness.git]
+(https://github.com/your-username/pg-pursuing-greatness.git)
+cd pg-pursuing-greatness```
+
+## Setup Virtual Environment
+```
+Bash
+# Create virtual environment
+python -m venv venv
+
+# Activate on Linux/macOS
+source venv/bin/activate
+
+# Activate on Windows
+# venv\Scripts\activate
+```
+
+## Install Dependencies
+```
+Bash
+pip install -r requirements.txt
+```
 
 # Project Structure
 
