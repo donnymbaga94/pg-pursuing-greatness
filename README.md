@@ -77,19 +77,6 @@ REST API, serving both the web client and future native mobile builds.
 (https://github.com/your-username/pg-pursuing-greatness.git)
 cd pg-pursuing-greatness```
 
-## Setup Virtual Environment
-```
-Bash
-# Create virtual environment
-python -m venv venv
-
-# Activate on Linux/macOS
-source venv/bin/activate
-
-# Activate on Windows
-# venv\Scripts\activate
-```
-
 ## Install Dependencies
 ```
 Bash
