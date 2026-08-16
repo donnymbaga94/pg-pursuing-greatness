@@ -74,9 +74,8 @@ REST API, serving both the web client and future native mobile builds.
 
 ## 1. Clone the Repository
 ```
-*git clone [https://github.com/your-username/pg-pursuing-greatness.git]
-(https://github.com/your-username/pg-pursuing-greatness.git)
-cd pg-pursuing-greatness
+git clone [https://github.com/your-username/pg-pursuing-greatness.git](https://github.com/your-username/pg-pursuing-greatness.git)
+`cd pg-pursuing-greatness`
 ```
 
 ## 2. Set Up Virtual Environment
